@@ -1,0 +1,16 @@
+import React from "react";
+import { Navigate } from "react-router-dom";
+
+const ProtectedRoute = ({ user, children, requireAdmin = false }) => {
+  if (!user) {
+    return <Navigate to="/login" replace />;
+  }
+
+  if (requireAdmin && user.role !== "admin") {
+    return <Navigate to="/dashboard" replace />;
+  }
+
+  return children;
+};
+
+export default ProtectedRoute;
