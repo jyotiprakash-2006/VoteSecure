@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secure Online Voting System (MERN)
 
 A production-ready final-year project built with **MongoDB, Express.js, React.js, and Node.js**.  
@@ -227,3 +228,6 @@ Backend URL: `http://localhost:5000`
 - [x] Modular code structure
 
 This project is ready for final-year project demonstration and viva.
+=======
+# VoteSecure
+>>>>>>> d1b9d340b5170bb51eac6308b066b0242a2ac7a5
